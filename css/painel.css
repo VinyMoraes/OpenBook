@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+
+.title-painel {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.painel-funcoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.funcoes {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.funcoes a {
+    color: white;
+    text-decoration: none;
+}
+
+.funcoes:hover {
+    color: white;
+    background-color: black;
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}

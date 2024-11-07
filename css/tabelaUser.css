@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+body {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.table {
+    background: black;
+    color: white;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.table-responsive {
+    margin-bottom: 20px;
+}
+
+.footer-redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+@media (max-width: 576px) {
+    .table th, .table td {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .footer-content {
+        padding: 10px;
+    }
+}
