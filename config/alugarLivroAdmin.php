@@ -32,7 +32,7 @@ if (isset($_GET['alugado']) && $_GET['alugado'] === 'true' && isset($_GET['livro
 
     if ($stmt->execute()) {
         // Mensagem de sucesso
-        echo "<script>alert('O livro foi alugado com sucesso!'); window.location.href='../painelAdmin/alugarLivro.php';</script>";
+        echo "<script>alert('O livro foi alugado com sucesso!'); window.location.href='../painelAdmin/alugarLivroAdmin.php';</script>";
     } else {
         // Mensagem de erro
         echo "<script>alert('Erro ao alugar o livro: " . $conexao->error . "'); window.location.href='../painelAdmin/alugarLivroAdmin.php';</script>";

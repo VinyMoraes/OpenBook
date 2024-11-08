@@ -3,7 +3,7 @@
     $dbHost = 'Localhost';
     $dbUserName = 'root';
     $dbPassword = '';
-    $dbName = 'hrmaster';
+    $dbName = 'portalliteratura';
 
     $conexao = new mysqli($dbHost,$dbUserName,$dbPassword,$dbName);
 

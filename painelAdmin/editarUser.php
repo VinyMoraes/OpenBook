@@ -64,7 +64,7 @@ if (!empty($_GET['id']) && is_numeric($_GET['id'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstssrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/User.css">
+    <link rel="stylesheet" href="../css/user.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="icon" href="../img/logo.png">
     <title>Editar Usuário</title>
