@@ -69,7 +69,7 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['permissao']) || $_SESSION['p
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 funcoes">
-                <a href="painelAdmin/addUser">
+                <a href="painelAdmin/addUser.php">
                     <i class="fa fa-user"></i> Adicionar Usuário
                 </a>
             </div>
